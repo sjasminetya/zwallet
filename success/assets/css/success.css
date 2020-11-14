@@ -1,0 +1,947 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    background: #E5E5E5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+nav {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #000;
+    height: 130px;
+}
+
+nav .text-zwallet {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+
+    color: #6379F4;
+}
+
+nav .nav-right {
+    display: flex;
+}
+
+nav .nav-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+nav .nav-right .name-phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+nav .nav-right span {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+aside {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 1000px;
+    width: 270px;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+aside .main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .main-menu .menu {
+    margin-bottom: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    list-style-type: none;
+
+    color: #3A3D42;
+}
+
+aside .main-menu .transfer-active {
+    border-left: 4px solid #6379F4;
+    height: 10%;
+}
+
+aside .main-menu .menu.transfer-active span.transfer {
+    color: #6379F4;
+    border-left: none;
+    margin-left: 40px;
+}
+
+aside .main-menu .menu span {
+    margin-left: 40px;
+}
+
+aside .main-menu .menu a {
+    color: #3A3D42;
+    margin-left: 20px;
+    padding-bottom: 70px;
+}
+
+aside .main-menu .menu a.transfer {
+    color: #6379F4;
+}
+
+aside .main-menu .menu a:hover {
+    text-decoration: none;
+    color: #3A3D42;
+}
+
+aside .main-menu .menu a.transfer:hover {
+    color: #6379F4;
+}
+
+aside .main-menu .menu-logout {
+    position: absolute;
+    bottom: 0px;
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-left: 10px;
+
+    height: 1000px;
+    width: 850px;
+    position: relative;
+}
+
+main .confirmation-main img.success {
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+main .confirmation-transfer {
+    padding-left: 360px;
+    padding-top: 30px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3A3D42;
+}
+
+main .content-confirmation {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main .content-confirmation img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 3%;
+}
+
+main .content-confirmation h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #514F5B;
+}
+
+main .content-confirmation p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #7A7886;
+}
+
+main .content-confirmation .amount,
+main .content-confirmation .balance-left,
+main .content-confirmation .date-time,
+main .content-confirmation .notes,
+main .content-confirmation .name-samuel {
+    display: flex;
+    width: 790px;
+    height: 110px;
+    margin-left: 2%;
+    margin-top: 2%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+main .content-confirmation .amount .text-amount,
+main .content-confirmation .balance-left .text-balance,
+main .content-confirmation .date-time .text-date-time,
+main .content-confirmation .notes .text-notes,
+main .content-confirmation .name-samuel .text-samuel {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+main .content-confirmation .transfer-to {
+    margin-top: 500%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3A3D42;
+}
+
+main .content-confirmation .button-success {
+    display: flex;
+    flex-direction: row;
+}
+
+main .content-confirmation .button-success .btn-share {
+    position: absolute;
+    top: 710px;
+    left: 300px;
+
+    width: 57px;
+    height: 57px;
+
+    background: rgba(99, 121, 244, 0.15);
+    border-radius: 12px;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border: none;
+
+    color: #6379F4;;
+}
+
+main .content-confirmation .button-success .btn-download {
+    position: absolute;
+    top: 710px;
+    left: 370px;
+
+    width: 243px;
+    height: 57px;
+
+    background: rgba(99, 121, 244, 0.15);
+    border-radius: 12px;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border: none;
+}
+
+main .content-confirmation .button-success .btn-download .download {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6379F4;
+    text-align: center;
+
+    margin-top: 5%;
+}
+
+main .content-confirmation .button-success .btn-download img {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+
+main .content-confirmation .button-success .btn-back {
+    position: absolute;
+    top: 710px;
+    left: 630px;
+
+    width: 170px;
+    height: 57px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    background: #6379F4;
+    border-radius: 12px;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border: none;
+
+    color: #fff;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+
+    background: #6379F4;
+    height: 68px;
+    width: 100%;
+    color: #fff;
+
+    margin-top: 30px;
+}
+
+footer .left-copyright {
+    position: absolute;
+    left: 10%;
+    top: 37%;
+}
+
+footer .right-number {
+    position: absolute;
+    left: 65%;
+    top: 37%;
+}
+
+footer .right-contact {
+    position: absolute;
+    left: 78%;
+    top: 37%;
+}
+
+@media (max-width: 1300px) {
+    main {
+        width: 100%;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 300px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 260px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 650px;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        left: 170px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        left: 245px;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 505px;
+    }
+
+    footer .right-number {
+        left: 60%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 150px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu.transfer-active {
+        border-left: none;
+    }
+
+    aside .main-menu .menu-logout {
+        right: 5%;
+        top: 33%;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 450px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 400px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 880px;
+    }
+
+    main .content-confirmation .name-samuel {
+        margin-top: 0%;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        left: 375px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        left: 445px;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 700px;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 180px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 1%;
+        top: 55%;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 300px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 260px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 650px;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        left: 175px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        left: 245px;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 500px;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .text-zwallet {
+        margin-left: 20px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 200px;
+    }
+    
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu a {
+        margin-left: 10px;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 15px;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 2px;
+        bottom: 0px;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 220px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 180px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 480px;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        left: 15px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        left: 74px;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 320px;
+    }
+
+    footer .left-copyright {
+        left: 0;
+    }
+
+    footer .right-number {
+        left: 42%;
+    }
+
+    footer .right-contact {
+        left: 72%;
+    }
+}
+
+@media (max-width: 576px) {
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 70px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 299px;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 200px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 160px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 420px;
+    }
+
+    main .content-confirmation .name-samuel .text-samuel,
+    main .content-confirmation .amount .text-amount,
+    main .content-confirmation .balance-left .text-balance,
+    main .content-confirmation .date-time .text-date-time,
+    main .content-confirmation .notes .text-notes {
+        margin-top: 6%;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        left: 50px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        left: 145px;
+        width: 57px;
+        height: 57px;
+    }
+
+    main .content-confirmation .button-success .btn-download .download {
+        display: none;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 230px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+/* Pixel 2/Pixel 2 XL/Iphone(6/7/8) Plus */
+@media (max-width: 415px) {
+    nav .text-zwallet {
+        margin-left: 130px;
+    }
+
+    nav .nav-right {
+        margin-right: 50px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 299px;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 150px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 120px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 350px;
+    }
+
+    main .content-confirmation .name-samuel .text-samuel,
+    main .content-confirmation .amount .text-amount,
+    main .content-confirmation .balance-left .text-balance,
+    main .content-confirmation .date-time .text-date-time,
+    main .content-confirmation .notes .text-notes {
+        margin-top: 6%;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        top: 640px;
+        left: 97px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        top: 640px;
+        left: 205px;
+        width: 57px;
+        height: 57px;
+    }
+
+    main .content-confirmation .button-success .btn-download .download {
+        display: none;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 100px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+/* Galaxy Note 3/Galaxy S5/Iphone(6/7/8)/Iphone X */
+@media (max-width: 379px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: 0px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 250px;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 120px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 85px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 310px;
+    }
+
+    main .content-confirmation .name-samuel .text-samuel,
+    main .content-confirmation .amount .text-amount,
+    main .content-confirmation .balance-left .text-balance,
+    main .content-confirmation .date-time .text-date-time,
+    main .content-confirmation .notes .text-notes {
+        margin-top: 6%;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        top: 640px;
+        left: 77px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        top: 640px;
+        left: 185px;
+        width: 57px;
+        height: 57px;
+    }
+
+    main .content-confirmation .button-success .btn-download .download {
+        display: none;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 80px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 20%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
+
+/* iphone 4/5/SE */
+@media (max-width: 325px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: 0px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 25px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 200px;
+    }
+
+    main .confirmation-main img.success {
+        padding-left: 120px;
+    }
+    
+    main .confirmation-transfer {
+        padding-left: 85px;
+    }
+
+    main .content-confirmation .name-samuel,
+    main .content-confirmation .amount,
+    main .content-confirmation .balance-left,
+    main .content-confirmation .date-time,
+    main .content-confirmation .notes {
+        width: 270px;
+    }
+
+    main .content-confirmation .name-samuel .text-samuel,
+    main .content-confirmation .amount .text-amount,
+    main .content-confirmation .balance-left .text-balance,
+    main .content-confirmation .date-time .text-date-time,
+    main .content-confirmation .notes .text-notes {
+        margin-top: 6%;
+    }
+
+    main .content-confirmation .button-success .btn-share {
+        top: 640px;
+        left: 57px;
+    }
+
+    main .content-confirmation .button-success .btn-download {
+        top: 640px;
+        left: 165px;
+        width: 57px;
+        height: 57px;
+    }
+
+    main .content-confirmation .button-success .btn-download .download {
+        display: none;
+    }
+
+    main .content-confirmation .button-success .btn-back {
+        left: 60px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 15%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
