@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    background: #E5E5E5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+nav {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #000;
+    height: 130px;
+}
+
+nav .text-zwallet {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+
+    color: #6379F4;
+}
+
+nav .nav-right {
+    display: flex;
+}
+
+nav .nav-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+nav .nav-right .name-phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+nav .nav-right span {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+aside {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 695px;
+    width: 270px;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+aside .main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .main-menu .menu {
+    margin-bottom: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    list-style-type: none;
+
+    color: #3A3D42;
+}
+
+aside .main-menu .profile-active {
+    border-left: 4px solid #6379F4;
+    height: 10%;
+}
+
+aside .main-menu .menu.profile-active span.profile {
+    color: #6379F4;
+    border-left: none;
+    margin-left: 40px;
+}
+
+aside .main-menu .menu span {
+    margin-left: 40px;
+}
+
+aside .main-menu .menu a {
+    color: #3A3D42;
+    margin-left: 20px;
+    padding-bottom: 70px;
+}
+
+aside .main-menu .menu a.profile {
+    color: #6379F4;
+}
+
+aside .main-menu .menu a:hover {
+    text-decoration: none;
+    color: #3A3D42;
+}
+
+aside .main-menu .menu a.profile:hover {
+    color: #6379F4;
+}
+
+aside .main-menu .menu-logout {
+    position: absolute;
+    bottom: 0px;
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-left: 10px;
+
+    height: 695px;
+    width: 850px;
+    position: relative;
+}
+
+main .profile-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main .profile-main .section-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+main .profile-main .section-profile img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 5%;
+}
+
+main .profile-main .section-profile .text-edit span {
+    position: absolute;
+    top: 21.5%;
+    left: 47%;
+    color: #000;
+}
+
+main .profile-main .section-profile .text-edit h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #7A7886;
+    margin-top: 2%;
+    margin-left: 30px;
+    margin-bottom: 3%;
+}
+
+main .profile-main .section-profile .name-phone-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+main .profile-main .section-profile .name-phone-profile h6 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #4D4B57;
+}
+
+main .profile-main .section-profile .name-phone-profile p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #7A7886;
+}
+
+main .profile-main .button-profile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main .profile-main .button-profile .btn-personal,
+main .profile-main .button-profile .btn-change-password,
+main .profile-main .button-profile .btn-change-pin,
+main .profile-main .button-profile .btn-logout {
+    width: 433px;
+    height: 64px;
+    margin: 15px auto;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4D4B57;
+
+    background: #E5E8ED;
+    border-radius: 10px;
+}
+
+main .profile-main .button-profile .btn-personal a,
+main .profile-main .button-profile .btn-change-password a,
+main .profile-main .button-profile .btn-change-pin a,
+main .profile-main .button-profile .btn-logout a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4D4B57;
+
+    margin-left: -55%;
+}
+
+main .profile-main .button-profile .btn-change-password a {
+    margin-left: -60%;
+}
+
+main .profile-main .button-profile .btn-change-pin a {
+    margin-left: -69%;
+}
+
+main .profile-main .button-profile .btn-logout a {
+    margin-left: -81%;
+}
+
+main .profile-main .button-profile .btn-personal a:hover,
+main .profile-main .button-profile .btn-change-password a:hover,
+main .profile-main .button-profile .btn-change-pin a:hover,
+main .profile-main .button-profile .btn-logout a:hover {
+    text-decoration: none;
+}
+
+main .profile-main .button-profile .btn-personal  i {
+    position: absolute;
+    right: 28%;
+    top: 11%;
+}
+
+main .profile-main .button-profile .btn-change-password i {
+    position: absolute;
+    right: 28%;
+    top: 36%;
+}
+
+main .profile-main .button-profile .btn-change-pin i {
+    position: absolute;
+    right: 28%;
+    top: 60%;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+
+    background: #6379F4;
+    height: 68px;
+    width: 100%;
+    color: #fff;
+
+    margin-top: 30px;
+}
+
+footer .left-copyright {
+    position: absolute;
+    left: 10%;
+    top: 37%;
+}
+
+footer .right-number {
+    position: absolute;
+    left: 65%;
+    top: 37%;
+}
+
+footer .right-contact {
+    position: absolute;
+    left: 78%;
+    top: 37%;
+}
+
+@media (max-width: 1300px) {
+    main {
+        width: 100%;
+    }
+
+    footer .right-number {
+        left: 60%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 150px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu.profile-active {
+        border-left: none;
+    }
+
+    aside .main-menu .menu-logout {
+        right: 5%;
+        top: 33%;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .profile-main .section-profile .text-edit span {
+        top: 20.5%;
+    }
+
+    main .profile-main .button-profile .btn-personal  i,
+    main .profile-main .button-profile .btn-change-password i,
+    main .profile-main .button-profile .btn-change-pin i  {
+        left: 65%;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 180px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 1%;
+        top: 55%;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .profile-main .section-profile .text-edit span {
+        top: 19.5%;
+        left: 46%;
+    }
+
+    main .profile-main .button-profile .btn-personal  i {
+        right: 14%;
+    }
+    
+    main .profile-main .button-profile .btn-change-password i {
+        right: 14%;
+    }
+    
+    main .profile-main .button-profile .btn-change-pin i {
+        right: 14%;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .text-zwallet {
+        margin-left: 20px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 200px;
+    }
+    
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu a {
+        margin-left: 10px;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 15px;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 2px;
+        bottom: 0px;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .profile-main .section-profile .text-edit span {
+        top: 19%;
+    }
+
+    footer .left-copyright {
+        left: 0;
+    }
+
+    footer .right-number {
+        left: 42%;
+    }
+
+    footer .right-contact {
+        left: 72%;
+    }
+}
+
+@media (max-width: 576px) {
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 70px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 299px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+@media (max-width: 442px) {
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 70px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 299px;
+    }
+
+    main .profile-main .section-profile .text-edit span {
+        top: 18%;
+        left: 44%;
+    }
+
+    main .profile-main .button-profile .btn-personal,
+    main .profile-main .button-profile .btn-change-password,
+    main .profile-main .button-profile .btn-change-pin,
+    main .profile-main .button-profile .btn-logout {
+        width: 380px;
+        margin: 15px 10px;
+    }
+
+    main .profile-main .button-profile .btn-personal a,
+    main .profile-main .button-profile .btn-change-password a,
+    main .profile-main .button-profile .btn-change-pin a,
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -150px;
+    }
+
+    main .profile-main .button-profile .btn-change-password a {
+        margin-left: -180px;
+    }
+
+    main .profile-main .button-profile .btn-change-pin a {
+        margin-left: -230px;
+    }
+
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -260px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+/* Pixel 2/Pixel 2 XL/Iphone(6/7/8) Plus */
+@media (max-width: 415px) {
+    nav .text-zwallet {
+        margin-left: 130px;
+    }
+
+    nav .nav-right {
+        margin-right: 50px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 299px;
+    }
+
+    main .profile-main .section-profile .text-edit span {
+        top: 18%;
+        left: 44%;
+    }
+
+    main .profile-main .button-profile .btn-personal,
+    main .profile-main .button-profile .btn-change-password,
+    main .profile-main .button-profile .btn-change-pin,
+    main .profile-main .button-profile .btn-logout {
+        width: 350px;
+        margin: 15px 10px;
+    }
+
+    main .profile-main .button-profile .btn-personal a,
+    main .profile-main .button-profile .btn-change-password a,
+    main .profile-main .button-profile .btn-change-pin a,
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -150px;
+    }
+
+    main .profile-main .button-profile .btn-change-password a {
+        margin-left: -180px;
+    }
+
+    main .profile-main .button-profile .btn-change-pin a {
+        margin-left: -230px;
+    }
+
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -260px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+/* Galaxy Note 3/Galaxy S5/Iphone(6/7/8)/Iphone X */
+@media (max-width: 379px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: 10px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 250px;
+    }
+
+    main .profile-main .button-profile .btn-personal,
+    main .profile-main .button-profile .btn-change-password,
+    main .profile-main .button-profile .btn-change-pin,
+    main .profile-main .button-profile .btn-logout {
+        width: 310px;
+        margin: 15px 10px;
+    }
+
+    main .profile-main .button-profile .btn-personal a,
+    main .profile-main .button-profile .btn-change-password a,
+    main .profile-main .button-profile .btn-change-pin a,
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -130px;
+    }
+
+    main .profile-main .button-profile .btn-change-password a {
+        margin-left: -150px;
+    }
+
+    main .profile-main .button-profile .btn-change-pin a {
+        margin-left: -200px;
+    }
+
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -230px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 20%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
+
+/* iphone 4/5/SE */
+@media (max-width: 335px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: 0px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 25px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 200px;
+    }
+
+    main .profile-main .section-profile .text-edit span {
+        top: 17.5%;
+        left: 44%;
+    }
+
+    main .profile-main .button-profile .btn-personal,
+    main .profile-main .button-profile .btn-change-password,
+    main .profile-main .button-profile .btn-change-pin,
+    main .profile-main .button-profile .btn-logout {
+        width: 285px;
+        margin: 15px 10px;
+    }
+
+    main .profile-main .button-profile .btn-personal a,
+    main .profile-main .button-profile .btn-change-password a,
+    main .profile-main .button-profile .btn-change-pin a,
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -100px;
+    }
+
+    main .profile-main .button-profile .btn-change-password a {
+        margin-left: -120px;
+    }
+
+    main .profile-main .button-profile .btn-change-pin a {
+        margin-left: -170px;
+    }
+
+    main .profile-main .button-profile .btn-logout a {
+        margin-left: -200px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 15%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
