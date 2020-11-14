@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+}
+
+/* .container-fluid {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+} */
+
+.background-container {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.background-container h1 {
+    position: absolute;
+    left: 13%;
+    top: 5.2%;
+    bottom: 90.63%;
+
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+    font-style: normal;
+}
+
+.background-container h2 {
+    position: absolute;
+    left: 14%;
+    top: 76%;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    font-style: normal;
+}
+
+.background-container p {
+    position: absolute;
+    left: 14%;
+    top: 83%;
+
+    font-weight: normal;
+    line-height: 23px;
+    font-style: normal;
+}
+
+.background-container .img-container{
+    width: 300px;
+    height: 500px;
+}
+
+.background-container .img-container img {
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.background-container .phone {
+    position: relative;
+    left: 240px;
+    top: 120px;
+}
+
+.background-container .phone2 {
+    position: absolute;
+    left: 95px;
+    top: 120px;
+}
+
+.form-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.pin-box {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.pin-box h2 {
+    margin-top: 100px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    font-style: normal;
+
+    color: #3A3D42;
+}
+
+.pin-box p {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+
+    color: rgba(58, 61, 66, 0.6);
+}
+
+.pin-box .digit-group input{
+    display: flex;
+    flex-direction: column;
+
+    width: 45px;
+    height: 55px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #fff;
+
+
+    border: 1px solid rgba(169, 169, 169, 0.6);
+    /* box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1); */
+    border-radius: 10px;
+}
+
+.pin-box button[type="submit"] {
+    position: relative;
+    top: 40px;
+
+    width: 433px;
+    height: 57px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    background: #DADADA;
+    border-radius: 12px;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+
+    color: #88888F;
+}
+
+@media (max-width: 768px) {
+    .background-container .phone {
+        left: 230px;
+    }
+    
+    .background-container .phone2 {
+        left: 95px;
+    }
+
+    .background-container h2 {
+        left: 110px;
+    }
+
+    .background-container p {
+        left: 110px;
+    }
+
+    .form-box button[type="submit"] {
+        width: 450px;
+        height: 57px;
+    }
+
+    .form-box .form-input span.span-eye {
+        left: 340px;
+    }
+}
+
+/* @media (max-width: 900px) {
+    .background-container {
+        height: 170vh;
+    }
+
+    .background-container .phone {
+        left: 120px;
+    }
+    
+    .background-container .phone2 {
+        left: -20px;
+    }
+
+    .background-container h2 {
+        left: 30px;
+    }
+
+    .background-container p {
+        left: 30px;
+    }
+
+    .pin-box button[type="submit"] {
+        width: 250px;
+        height: 57px;
+    }
+} */
+
+@media (max-width: 1300px) {
+    .background-container {
+        height: 170vh;
+    }
+
+    .background-container .phone {
+        left: 150px;
+    }
+    
+    .background-container .phone2 {
+        left: 10px;
+    }
+
+    .background-container h2 {
+        left: 30px;
+    }
+
+    .background-container p {
+        left: 30px;
+    }
+
+    .pin-box button[type="submit"] {
+        width: 280px;
+        height: 57px;
+    }
+}
