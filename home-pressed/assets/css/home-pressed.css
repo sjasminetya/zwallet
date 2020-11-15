@@ -747,6 +747,10 @@ footer .right-contact {
         flex-direction: row;
     }
 
+    aside .main-menu .menu.dashboard-active {
+        border-left: none;
+    }
+
     aside .main-menu .menu-logout {
         right: 5%;
         top: 33%;
@@ -1151,7 +1155,7 @@ footer .right-contact {
     }
 
     nav .nav-right {
-        margin-right: 0px;
+        margin-right: -10px;
     }
 
     aside {
@@ -1173,6 +1177,10 @@ footer .right-contact {
     aside .main-menu .menu-logout {
         margin-top: -5px;
         margin-left: 200px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 100px;
     }
 
     .pressed-content {
