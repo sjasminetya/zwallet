@@ -15,11 +15,6 @@ body {
 
 .main-container {
     display: flex;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
@@ -36,12 +31,10 @@ nav {
 }
 
 nav .text-zwallet {
-
     font-style: normal;
     font-weight: bold;
     font-size: 29px;
     line-height: 40px;
-    margin-left: 110px;
 
     color: #6379F4;
 }
@@ -599,9 +592,6 @@ main .section-main .main-right .history-adobe .adobe-sub {
 }
 
 footer {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     position: relative;
     bottom: 0;
 
@@ -632,13 +622,35 @@ footer .right-contact {
 }
 
 @media (max-width: 1300px) {
+    aside {
+        width: 100%;
+    }
+    
+    main .main-top {
+        width: 100%;
+    }
+
     footer .right-number {
         left: 60%;
     }
 }
 
+@media (max-width: 1199px) {
+    aside {
+        width: 100%;
+    }
+
+    main .main-top {
+        width: 100%;
+    }
+
+    main .section-main .main-right {
+        margin-left: 20px;
+    }
+}
+
 @media (max-width: 1100px) {
-    .container {
+    .main-container {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -652,6 +664,10 @@ footer .right-contact {
     aside .main-menu {
         display: flex;
         flex-direction: row;
+    }
+
+    aside .main-menu .menu.dashboard-active {
+        border-left: none;
     }
 
     aside .main-menu .menu-logout {
@@ -683,7 +699,7 @@ footer .right-contact {
 }
 
 @media (max-width: 992px) {
-    .container {
+    .main-container {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -732,7 +748,7 @@ footer .right-contact {
         margin-left: 20px;
     }
 
-    .container {
+    .main-container {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -857,6 +873,182 @@ footer .right-contact {
 
     footer .right-contact {
         left: 36.40%;
+        top: 60%;
+    }
+}
+
+@media (max-width: 461px) {
+    aside .main-menu .menu-logout {
+        margin-left: 270px;
+    }
+}
+
+/* Pixel 2/Pixel 2 XL/Iphone(6/7/8) Plus */
+@media (max-width: 415px) {
+    nav .text-zwallet {
+        margin-left: 130px;
+    }
+
+    nav .nav-right {
+        margin-right: 50px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 280px;
+    }
+
+    main .main-top .button-right {
+        margin-top: -160px;
+        margin-left: 200px;
+    }
+
+    main .main-top .button-right button{
+        margin-bottom: 50px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 25%;
+    }
+
+    footer .right-number {
+        left: 32%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 33.40%;
+        top: 60%;
+    }
+}
+
+/* Galaxy Note 3/Galaxy S5/Iphone(6/7/8)/Iphone X */
+@media (max-width: 379px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: 15px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 215px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 150px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 20%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
+
+/* iphone 4/5/SE */
+@media (max-width: 325px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: -10px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 25px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 200px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 100px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 15%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
         top: 60%;
     }
 }
