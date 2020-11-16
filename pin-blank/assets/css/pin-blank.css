@@ -201,7 +201,7 @@ body {
 
 @media (max-width: 992px) {
     .background-container {
-        height: 140vh;
+        height: 170vh;
     }
 
     .background-container .phone {
@@ -222,15 +222,15 @@ body {
         left: 20px;
     }
 
-    .pin-box button[type="submit"] {
+    .form-box button[type="submit"] {
         width: 280px;
         height: 57px;
     }
 }
 
-@media (max-width: 831px) {
+@media (max-width: 844px) {
     .background-container .phone {
-        left: 120px;
+        left: 130px;
     }
     
     .background-container .phone2 {
@@ -239,41 +239,39 @@ body {
 }
 
 @media (max-width: 768px) {
-    .background-container {
-        height: 150vh;
-    }
-
     .background-container .phone {
-        left: 240px;
+        left: 280px;
     }
     
     .background-container .phone2 {
-        left: 70px;
+        left: 120px;
     }
 
     .background-container h2 {
-        left: 110px;
+        left: 130px;
     }
 
     .background-container p {
-        left: 110px;
+        left: 130px;
     }
 
-    .pin-box button[type="submit"] {
+    .form-box button[type="submit"] {
         width: 100%;
         height: 57px;
     }
 }
 
-@media (max-width: 590px) {
-    .pin-box .heading {
-        margin-top: -10%;
+@media (max-width: 699px) {
+    .background-container .phone {
+        left: 250px;
     }
-
-    .background-container {
-        height: 150vh;
+    
+    .background-container .phone2 {
+        left: 90px;
     }
+}
 
+@media (max-width: 622px) {
     .background-container .phone {
         left: 200px;
     }
@@ -283,6 +281,24 @@ body {
     }
 
     .background-container h2 {
+        left: 90px;
+    }
+
+    .background-container p {
+        left: 90px;
+    }
+}
+
+@media (max-width: 590px) {
+    .background-container .phone {
+        left: 220px;
+    }
+    
+    .background-container .phone2 {
+        left: 50px;
+    }
+
+    .background-container h2 {
         left: 70px;
     }
 
@@ -290,19 +306,53 @@ body {
         left: 70px;
     }
 
-    .pin-box button[type="submit"] {
+    .form-box button[type="submit"] {
         width: 100%;
         height: 57px;
     }
 }
 
 @media (max-width: 576px) {
+    .background-container .phone {
+        left: 200px;
+    }
+    
+    .background-container .phone2 {
+        left: 30px;
+    }
+
+    .form-box .heading {
+        margin-top: -10%;
+    }
+
     .pin-box .heading {
         margin-top: -10%;
     }
 }
 
+@media (max-width: 447px) {
+    .pin-box button[type="submit"] {
+        bottom: 100%;
+    }
+}
+
+@media (max-width: 434px) {
+    .pin-box .digit-group input {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 353px) {
+    .pin-box .digit-group input {
+        margin-left: 3px;
+    }
+}
+
 @media (max-width: 345px) {
+    .pin-box .digit-group input {
+        margin-left: 0px;
+    }
+
     .pin-box button[type="submit"] {
         top: 5%;
     }
