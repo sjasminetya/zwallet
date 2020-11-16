@@ -209,7 +209,7 @@ body {
 
 @media (max-width: 992px) {
     .background-container {
-        height: 140vh;
+        height: 170vh;
     }
 
     .background-container .phone {
@@ -236,25 +236,31 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    .background-container {
-        height: 150vh;
-    }
-
+@media (max-width: 844px) {
     .background-container .phone {
-        left: 240px;
+        left: 130px;
     }
     
     .background-container .phone2 {
-        left: 70px;
+        left: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .background-container .phone {
+        left: 280px;
+    }
+    
+    .background-container .phone2 {
+        left: 120px;
     }
 
     .background-container h2 {
-        left: 110px;
+        left: 130px;
     }
 
     .background-container p {
-        left: 110px;
+        left: 130px;
     }
 
     .form-box button[type="submit"] {
@@ -263,21 +269,41 @@ body {
     }
 }
 
-@media (max-width: 590px) {
-    .form-box .heading {
-        margin-top: -10%;
+@media (max-width: 699px) {
+    .background-container .phone {
+        left: 250px;
     }
-
-    .background-container {
-        height: 150vh;
+    
+    .background-container .phone2 {
+        left: 90px;
     }
+}
 
+@media (max-width: 622px) {
     .background-container .phone {
         left: 200px;
     }
     
     .background-container .phone2 {
         left: 40px;
+    }
+
+    .background-container h2 {
+        left: 90px;
+    }
+
+    .background-container p {
+        left: 90px;
+    }
+}
+
+@media (max-width: 590px) {
+    .background-container .phone {
+        left: 220px;
+    }
+    
+    .background-container .phone2 {
+        left: 50px;
     }
 
     .background-container h2 {
@@ -295,6 +321,14 @@ body {
 }
 
 @media (max-width: 576px) {
+    .background-container .phone {
+        left: 200px;
+    }
+    
+    .background-container .phone2 {
+        left: 30px;
+    }
+    
     .form-box .heading {
         margin-top: -10%;
     }
