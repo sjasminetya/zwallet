@@ -788,7 +788,7 @@ footer .right-contact {
     }
 
     main .main-top .button-right {
-        margin-left: 300px;
+        margin-left: 500px;
     }
 
     main .section-main {
@@ -877,9 +877,37 @@ footer .right-contact {
     }
 }
 
+@media (max-width: 540px) {
+    main .main-top .button-right {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 482px) {
+    main .main-top .button-right {
+        margin-left: 260px;
+    }
+}
+
 @media (max-width: 461px) {
     aside .main-menu .menu-logout {
         margin-left: 270px;
+    }
+
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    main .main-top .button-right button{
+        width: 140px;
+        margin-left: 35px;
     }
 }
 
@@ -911,16 +939,23 @@ footer .right-contact {
 
     aside .main-menu .menu-logout {
         margin-top: -5px;
-        margin-left: 280px;
+        margin-left: 260px;
+    }
+
+    main .main-top {
+        height: 300px;
     }
 
     main .main-top .button-right {
-        margin-top: -160px;
-        margin-left: 200px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: -5px;
     }
 
     main .main-top .button-right button{
-        margin-bottom: 50px;
+        width: 140px;
+        margin-left: 35px;
     }
 
     footer {
@@ -974,8 +1009,20 @@ footer .right-contact {
         margin-left: 215px;
     }
 
+    main .main-top {
+        height: 300px;
+    }
+
     main .main-top .button-right {
-        margin-left: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+
+    main .main-top .button-right button{
+        width: 140px;
+        margin-left: 10px;
     }
 
     footer {
@@ -995,6 +1042,24 @@ footer .right-contact {
     footer .right-contact {
         left: 26.40%;
         top: 60%;
+    }
+}
+
+@media (max-width: 332px) {
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    main .main-top .button-right button{
+        width: 130px;
+        margin-left: 10px;
     }
 }
 
@@ -1029,8 +1094,20 @@ footer .right-contact {
         margin-left: 200px;
     }
 
+    main .main-top {
+        height: 300px;
+    }
+
     main .main-top .button-right {
-        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    main .main-top .button-right button{
+        width: 130px;
+        margin-left: 10px;
     }
 
     footer {
