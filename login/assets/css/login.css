@@ -260,7 +260,7 @@ body {
 
 @media (max-width: 992px) {
     .background-container {
-        height: 140vh;
+        height: 170vh;
     }
 
     .background-container .phone {
@@ -287,29 +287,45 @@ body {
     }
 
     .form-box .form-input span.span-eye {
+        left: 260px;
+    }
+}
+
+@media (max-width: 966px) {
+    .form-box .form-input span.span-eye {
+        left: 290px;
+    }
+}
+
+@media (max-width: 844px) {
+    .background-container .phone {
+        left: 130px;
+    }
+    
+    .background-container .phone2 {
+        left: -30px;
+    }
+
+    .form-box .form-input span.span-eye {
         left: 250px;
     }
 }
 
 @media (max-width: 768px) {
-    .background-container {
-        height: 150vh;
-    }
-
     .background-container .phone {
-        left: 240px;
+        left: 280px;
     }
     
     .background-container .phone2 {
-        left: 70px;
+        left: 120px;
     }
 
     .background-container h2 {
-        left: 110px;
+        left: 130px;
     }
 
     .background-container p {
-        left: 110px;
+        left: 130px;
     }
 
     .form-box button[type="submit"] {
@@ -318,15 +334,47 @@ body {
     }
 
     .form-box .form-input span.span-eye {
-        left: 400px;
+        left: 480px;
+    }
+}
+
+@media (max-width: 699px) {
+    .background-container .phone {
+        left: 250px;
+    }
+    
+    .background-container .phone2 {
+        left: 90px;
+    }
+
+    .form-box .form-input span.span-eye {
+        left: 430px;
+    }
+}
+
+@media (max-width: 622px) {
+    .background-container .phone {
+        left: 200px;
+    }
+    
+    .background-container .phone2 {
+        left: 40px;
+    }
+
+    .background-container h2 {
+        left: 90px;
+    }
+
+    .background-container p {
+        left: 90px;
+    }
+
+    .form-box .form-input span.span-eye {
+        left: 360px;
     }
 }
 
 @media (max-width: 590px) {
-    .background-container {
-        height: 150vh;
-    }
-
     .background-container .phone {
         left: 220px;
     }
@@ -354,24 +402,66 @@ body {
 }
 
 @media (max-width: 576px) {
+    .background-container .phone {
+        left: 200px;
+    }
+    
+    .background-container .phone2 {
+        left: 30px;
+    }
+
     .form-box .heading {
         margin-top: -10%;
     }
 
     .form-box .form-input span.span-eye {
-        left: 400px;
+        left: 340px;
+    }
+}
+
+@media (max-width: 572px) {
+    .form-box .form-input span.span-eye {
+        left: 480px;
+    }
+}
+
+@media (max-width: 526px) {
+    .form-box .form-input span.span-eye {
+        left: 430px;
+    }
+}
+
+@media (max-width: 489px) {
+    .form-box .form-input span.span-eye {
+        left: 390px;
+    }
+}
+
+@media (max-width: 470px) {
+    .form-box .form-input span.span-eye {
+        left: 360px;
     }
 }
 
 @media (max-width: 458px) {
     .form-box .form-input span.span-eye {
-        left: 350px;
+        left: 320px;
+    }
+
+    .form-box button[type="submit"] {
+        top: 5%;
     }
 }
 
-@media (max-width: 345px) {
+@media (max-width: 379px) {
     .form-box .form-input span.span-eye {
-        left: 250px;
+        left: 280px;
+    }
+}
+
+@media (max-width: 346px) {
+    .form-box .form-input span.span-eye {
+        left: 220px;
     }
 
     .form-box button[type="submit"] {
