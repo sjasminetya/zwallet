@@ -183,11 +183,12 @@ main .content-search {
     position: relative;
 }
 
-main .content-search img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin-left: 3%;
+main .content-search .search-img img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 main .content-search h6 {
@@ -224,7 +225,7 @@ main .content-search .search-samuel .text-samuel {
     display: flex;
     flex-direction: column;
 
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 3%;
 }
 
@@ -246,7 +247,7 @@ main .content-search .search-momo .text-momo {
     display: flex;
     flex-direction: column;
 
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 3%;
 }
 
@@ -268,7 +269,7 @@ main .content-search .search-jessica .text-jessica {
     display: flex;
     flex-direction: column;
 
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 3%;
 }
 
@@ -290,7 +291,7 @@ main .content-search .search-michael .text-michael {
     display: flex;
     flex-direction: column;
 
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 3%;
 }
 
@@ -330,14 +331,14 @@ footer .right-contact {
     }
 
     main .search-box input {
-        width: 650px;
+        width: 850px;
     }
 
     main .content-search .search-samuel,
     main .content-search .search-momo,
     main .content-search .search-jessica,
     main .content-search .search-michael {
-        width: 650px;
+        width: 850px;
     }
 
     footer .right-number {
@@ -475,14 +476,14 @@ footer .right-contact {
     }
 
     main .search-box input {
-        width: 480px;
+        width: 650px;
     }
 
     main .content-search .search-samuel,
     main .content-search .search-momo,
     main .content-search .search-jessica,
     main .content-search .search-michael {
-        width: 480px;
+        width: 650px;
     }
 
     main .content-search .search-jessica {
@@ -566,6 +567,19 @@ footer .right-contact {
     }
 }
 
+@media (max-width: 452px) {
+    main .search-box input {
+        width: 400px;
+    }
+
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 400px;
+    }
+}
+
 /* Pixel 2/Pixel 2 XL/Iphone(6/7/8) Plus */
 @media (max-width: 437px) {
     nav .text-zwallet {
@@ -598,14 +612,14 @@ footer .right-contact {
     }
 
     main .search-box input {
-        width: 350px;
+        width: 380px;
     }
 
     main .content-search .search-samuel,
     main .content-search .search-momo,
     main .content-search .search-jessica,
     main .content-search .search-michael {
-        width: 350px;
+        width: 380px;
     }
 
     main .content-search .search-samuel .text-samuel,
@@ -632,6 +646,45 @@ footer .right-contact {
     footer .right-contact {
         left: 36.40%;
         top: 60%;
+    }
+}
+
+@media (max-width: 416px) {
+    main .search-box input {
+        width: 360px;
+    }
+
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 360px;
+    }
+}
+
+@media (max-width: 394px) {
+    main .search-box input {
+        width: 330px;
+    }
+
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 330px;
+    }
+}
+
+@media (max-width: 381px) {
+    main .search-box input {
+        width: 330px;
+    }
+
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 330px;
     }
 }
 
@@ -667,14 +720,14 @@ footer .right-contact {
     }
 
     main .search-box input {
-        width: 270px;
+        width: 300px;
     }
 
     main .content-search .search-samuel,
     main .content-search .search-momo,
     main .content-search .search-jessica,
     main .content-search .search-michael {
-        width: 270px;
+        width: 300px;
     }
 
     main .content-search .search-samuel .text-samuel,
@@ -704,8 +757,25 @@ footer .right-contact {
     }
 }
 
+@media (max-width: 381px) {
+    nav .nav-right {
+        margin-right: 35px;
+    }
+
+    main .search-box input {
+        width: 300px;
+    }
+
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 300px;
+    }
+}
+
 /* iphone 4/5/SE */
-@media (max-width: 325px) {
+@media (max-width: 327px) {
     nav .text-zwallet {
         margin-left: 100px;
     }
@@ -735,19 +805,21 @@ footer .right-contact {
         margin-left: 200px;
     }
 
-    main .content-confirmation .name-samuel,
-    main .content-confirmation .amount,
-    main .content-confirmation .balance-left,
-    main .content-confirmation .date-time,
-    main .content-confirmation .notes {
-        width: 270px;
+    main .search-box input {
+        width: 280px;
     }
 
-    main .content-confirmation .name-samuel .text-samuel,
-    main .content-confirmation .amount .text-amount,
-    main .content-confirmation .balance-left .text-balance,
-    main .content-confirmation .date-time .text-date-time,
-    main .content-confirmation .notes .text-notes {
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 280px;
+    }
+
+    main .content-search .search-samuel .text-samuel,
+    main .content-search .search-momo .text-momo,
+    main .content-search .search-jessica .text-jessica,
+    main .content-search .search-michael .text-michael {
         margin-top: 6%;
     }
 
@@ -768,5 +840,18 @@ footer .right-contact {
     footer .right-contact {
         left: 26.40%;
         top: 60%;
+    }
+}
+
+@media (max-width: 320px) {
+    main .search-box input {
+        width: 260px;
+    }
+
+    main .content-search .search-samuel,
+    main .content-search .search-momo,
+    main .content-search .search-jessica,
+    main .content-search .search-michael {
+        width: 260px;
     }
 }
