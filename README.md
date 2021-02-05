@@ -49,4 +49,4 @@ Zwallet is a website application that focuses on transferring money between user
 
 ## Author
 This project was built by :
-* [`Shaula Jaminetya Saga`](https://github.com/sjasminetya)
+* [`Shaula Jasminetya Saga`](https://github.com/sjasminetya)
