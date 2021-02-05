@@ -23,16 +23,16 @@ Zwallet is a website application that focuses on transferring money between user
 
 ### Features
 
-  - Login
-  - Sign in
-  - Change password
-  - Change PIN
-  - Reset password using email
-  - Transaction history
-  - Search receiver
-  - Top up
-  - Personal Information
-  - Add phone number and manage phone number
+  - `Login`
+  - `Sign in`
+  - `Change password`
+  - `Change PIN`
+  - `Reset password using email`
+  - `Transaction history`
+  - `Search receiver`
+  - `Top up`
+  - `Personal Information`
+  - `Add phone number and manage phone number`
   
 ## Screenshots
 
@@ -49,4 +49,4 @@ Zwallet is a website application that focuses on transferring money between user
 
 ## Author
 This project was built by :
-* [Shaula Jaminetya Saga](https://github.com/sjasminetya)
+* [`Shaula Jaminetya Saga`](https://github.com/sjasminetya)
