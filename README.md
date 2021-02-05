@@ -1,5 +1,7 @@
 # Slicing Zwallet Website Application
 
+This is documentation of slicing zwallet website
+
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -15,8 +17,9 @@
 Zwallet is a website application that focuses on transferring money between users. In this application users can top up balance and see a transaction history after transfer to friends. Zwallet created with modern and sleek design and not complicated, and users can be comfortable for using it.
 
 ### Built with
-* [Vue JS](https://vuejs.org/)
-* [Vue Bootstrap](https://bootstrap-vue.org/)
+* `HTML`
+* `CSS`
+* [`Bootstrap V4.5`](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ### Features
 
@@ -41,8 +44,8 @@ Zwallet is a website application that focuses on transferring money between user
       <image width="200" height="200" src='./screenshots/profile.png' />
 
 ## Integration
-* [Frontend Zwallet](https://github.com/sjasminetya/zwallet-frontend)
-* [Backend Zwallet](https://github.com/sjasminetya/zwallet-backend)
+* [`Frontend Zwallet`](https://github.com/sjasminetya/zwallet-frontend)
+* [`Backend Zwallet`](https://github.com/sjasminetya/zwallet-backend)
 
 ## Author
 This project was built by :
