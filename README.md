@@ -1,6 +1,6 @@
 # Slicing Zwallet Website Application
 
-This is documentation of slicing zwallet website
+* [`Demo slicing zwallet`](https://zwallet-shaula.netlify.app)
 
 ## Table of Contents
 
