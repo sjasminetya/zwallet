@@ -155,6 +155,7 @@ main .profile-main .section-profile img {
     height: auto;
     object-fit: contain;
     margin-top: 5%;
+    margin-left: 45%;
 }
 
 main .profile-main .section-profile .text-edit span {
