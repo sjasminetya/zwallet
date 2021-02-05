@@ -158,10 +158,11 @@ main .content-confirmation {
 }
 
 main .content-confirmation img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
     margin-left: 3%;
+    margin-top: 3%;
 }
 
 main .content-confirmation h6 {
