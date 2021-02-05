@@ -1,4 +1,4 @@
-# Slicing Zwallet Website Application
+# Slicing Zwallet Website
 
 #### [`Demo slicing zwallet`](https://zwallet-shaula.netlify.app)
 
@@ -44,6 +44,7 @@ Zwallet is a website application that focuses on transferring money between user
       <image width="260" height="200" src='./screenshots/dashboard.png' />
       <image width="260" height="200" src='./screenshots/search-receiver.png' />
       <image width="260" height="200" src='./screenshots/success.png' />
+      <image width="260" height="200" src='./screenshots/profile.png' />
       <image width="260" height="200" src='./screenshots/personal-info.png' />
       <image width="260" height="200" src='./screenshots/manage-phone.png' />
 
