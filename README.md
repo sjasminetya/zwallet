@@ -38,14 +38,14 @@ Zwallet is a website application that focuses on transferring money between user
 
 <p align='center'>
   <span>
-      <image width="250" height="200" src='./screenshots/login.png' />
-      <image width="250" height="200" src='./screenshots/register.png' />
-      <image width="250" height="200" src='./screenshots/reset-password.png' />
-      <image width="250" height="200" src='./screenshots/dashboard.png' />
-      <image width="250" height="200" src='./screenshots/search-receiver.png' />
-      <image width="250" height="200" src='./screenshots/success.png' />
-      <image width="250" height="200" src='./screenshots/personal-info.png' />
-      <image width="250" height="200" src='./screenshots/manage-phone.png' />
+      <image width="200" height="150" src='./screenshots/login.png' />
+      <image width="200" height="150" src='./screenshots/register.png' />
+      <image width="200" height="150" src='./screenshots/reset-password.png' />
+      <image width="200" height="150" src='./screenshots/dashboard.png' />
+      <image width="200" height="150" src='./screenshots/search-receiver.png' />
+      <image width="200" height="150" src='./screenshots/success.png' />
+      <image width="200" height="150" src='./screenshots/personal-info.png' />
+      <image width="200" height="150" src='./screenshots/manage-phone.png' />
 
 ## Integration
 * [`Frontend Zwallet`](https://github.com/sjasminetya/zwallet-frontend)
