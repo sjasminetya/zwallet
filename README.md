@@ -8,7 +8,7 @@ This is documentation of slicing zwallet website
   * [Built With](#built-with)
   * [Features](#features)
 * [Screenshots](#screenshots)
-* [Integration](#related-project-backend)
+* [Integration](#integration)
 * [Author](#author)
 
 ## About The Project
