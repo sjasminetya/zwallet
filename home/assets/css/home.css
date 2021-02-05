@@ -1,0 +1,1131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    background: #E5E5E5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+nav {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #000;
+    height: 130px;
+}
+
+nav .text-zwallet {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+
+    color: #6379F4;
+}
+
+nav .nav-right {
+    display: flex;
+    /* margin-left: 710px; */
+}
+
+nav .nav-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+nav .nav-right .name-phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+nav .nav-right span {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+aside {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 710px;
+    width: 280px;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+aside .main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .main-menu .menu {
+    margin-bottom: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    list-style-type: none;
+
+    color: #3A3D42;
+}
+
+aside .main-menu .dashboard-active {
+    border-left: 4px solid #6379F4;
+    height: 10%;
+}
+
+aside .main-menu .menu.dashboard-active span.dashboard {
+    color: #6379F4;
+    border-left: none;
+    margin-left: 40px;
+}
+
+aside .main-menu .menu span {
+    margin-left: 40px;
+}
+
+aside .main-menu .menu a {
+    color: #3A3D42;
+    margin-left: 20px;
+    padding-bottom: 70px;
+}
+
+aside .main-menu .menu a.dashboard {
+    color: #6379F4;
+}
+
+aside .main-menu .menu a:hover {
+    text-decoration: none;
+    color: #3A3D42;
+}
+
+aside .main-menu .menu a.dashboard:hover {
+    color: #6379F4;
+}
+
+aside .main-menu .menu-logout {
+    position: absolute;
+    bottom: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-top {
+    background: #6379F4;
+    border-radius: 20px;
+    height: 190px;
+    width: 850px;
+    margin-left: 30px;
+}
+
+main .main-top h6.balance {
+    padding-top: 20px;
+    padding-left: 30px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: #E0E0E0;
+}
+
+main .main-top h1 {
+    padding-top: 3px;
+    padding-left: 30px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+main .main-top h6.number {
+    padding-top: 5px;
+    padding-left: 30px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+
+    color: #E0E0E0;
+}
+
+main .main-top .button-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: -140px;
+    margin-left: 620px;
+}
+
+main .main-top .button-right button {
+    width: 162px;
+    height: 57px;
+    margin-bottom: 20px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+main .main-top .button-right button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main .main-top .button-right button a i{
+    margin-right: 10px;
+}
+
+main .section-main {
+    display: flex;
+    flex-direction: row;
+}
+
+main .section-main .main-bottom {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+
+    height: 500px;
+    width: 463px;
+    position: relative;
+}
+
+main .section-main .main-bottom span.arrow-down {
+    color: #1EC15F;
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+main .section-main .main-bottom span.arrow-up {
+    color: #FF5B37;
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+main .section-main .main-bottom .income {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #6A6A6A;
+}
+
+main .section-main .main-bottom .income-rupiah {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3A3D42;
+}
+
+main .section-main .main-bottom .expense {
+    position: absolute;
+    left: 60%;
+    top: 25%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #6A6A6A;
+}
+
+main .section-main .main-bottom .expense-rupiah {
+    position: absolute;
+    left: 60%;
+    top: 35%;
+
+    font-style: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3A3D42;
+}
+
+main .section-main .main-bottom .chart h6 {
+    margin-top: 210px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #1EC15F;
+}
+
+main .section-main .main-bottom .chart .chart1 {
+    position: absolute;
+    left: 18%;
+    top: 47%;
+}
+
+main .section-main .main-bottom .chart .chart2 {
+    position: absolute;
+    left: 28%;
+    top: 72%;
+}
+
+main .section-main .main-bottom .chart .chart3 {
+    position: absolute;
+    left: 38%;
+    top: 62%;
+}
+
+main .section-main .main-bottom .chart .chart4 {
+    position: absolute;
+    left: 48%;
+    top: 55%;
+}
+
+main .section-main .main-bottom .chart .ellipse {
+    position: absolute;
+    left: 46%;
+    top: 50%;
+}
+
+main .section-main .main-bottom .chart .chart5 {
+    position: absolute;
+    left: 58%;
+    top: 64%;
+}
+
+main .section-main .main-bottom .chart .chart6 {
+    position: absolute;
+    left: 68%;
+    top: 52%;
+}
+
+main .section-main .main-bottom .chart .chart7 {
+    position: absolute;
+    left: 78%;
+    top: 61%;
+}
+
+main .section-main .main-bottom .chart .day h6{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #8F8F8F;
+}
+
+main .section-main .main-bottom .chart .day .sat {
+    position: absolute;
+    left: 18%;
+    top: 87%;
+}
+
+main .section-main .main-bottom .chart .day .sun {
+    position: absolute;
+    left: 28%;
+    top: 87%;
+}
+
+main .section-main .main-bottom .chart .day .mon {
+    position: absolute;
+    left: 38%;
+    top: 87%;
+}
+
+main .section-main .main-bottom .chart .day .tue {
+    position: absolute;
+    left: 48%;
+    top: 87%;
+}
+
+main .section-main .main-bottom .chart .day .wed {
+    position: absolute;
+    left: 58%;
+    top: 87%;
+}
+
+main .section-main .main-bottom .chart .day .thu {
+    position: absolute;
+    left: 68%;
+    top: 87%;
+}
+
+main .section-main .main-bottom .chart .day .fri {
+    position: absolute;
+    left: 78%;
+    top: 87%;
+}
+
+main .section-main .main-right {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    height: 500px;
+    width: 367px;
+    position: relative;
+}
+
+main .section-main .main-right .transaction {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #3A3D42;
+}
+
+main .section-main .main-right a {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+
+    color: #6379F4;
+}
+
+main .section-main .main-right .history img {
+    position: absolute;
+    left: 10%;
+    top: 23%;
+}
+
+main .section-main .main-right .history .text {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 30%;
+    top: 23%;
+}
+
+main .section-main .main-right .history .text .samuel,
+main .section-main .main-right .history-netflix .text-netflix .netflix,
+main .section-main .main-right .history-christine .text-christine .christine,
+main .section-main .main-right .history-adobe .text-adobe .adobe {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #4D4B57;
+}
+
+main .section-main .main-right .history .text .transfer,
+main .section-main .main-right .history-netflix .text-netflix .subscription,
+main .section-main .main-right .history-christine .text-christine .transfer,
+main .section-main .main-right .history-adobe .text-adobe .subscription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #7A7886;
+}
+
+main .section-main .main-right .history .samuel-tf {
+    position: absolute;
+    left: 70%;
+    top: 26%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #1EC15F;
+}
+
+main .section-main .main-right .history-netflix img {
+    position: absolute;
+    left: 10%;
+    top: 41%;
+}
+
+main .section-main .main-right .history-netflix .text-netflix {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 30%;
+    top: 41%;
+}
+
+main .section-main .main-right .history-netflix .netflix-sub {
+    position: absolute;
+    left: 70%;
+    top: 44%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #FF5B37;
+}
+
+main .section-main .main-right .history-christine img {
+    position: absolute;
+    left: 10%;
+    top: 59%;
+}
+
+main .section-main .main-right .history-christine .text-christine {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 30%;
+    top: 59%;
+}
+
+main .section-main .main-right .history-christine .christine-tf {
+    position: absolute;
+    left: 70%;
+    top: 62%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #1EC15F;
+}
+
+main .section-main .main-right .history-adobe img {
+    position: absolute;
+    left: 10%;
+    top: 77%;
+}
+
+main .section-main .main-right .history-adobe .text-adobe {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 30%;
+    top: 77%;
+}
+
+main .section-main .main-right .history-adobe .adobe-sub {
+    position: absolute;
+    left: 70%;
+    top: 80%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #FF5B37;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+
+    background: #6379F4;
+    height: 68px;
+    width: 100%;
+    color: #fff;
+
+    margin-top: 30px;
+}
+
+footer .left-copyright {
+    position: absolute;
+    left: 10%;
+    top: 37%;
+}
+
+footer .right-number {
+    position: absolute;
+    left: 65%;
+    top: 37%;
+}
+
+footer .right-contact {
+    position: absolute;
+    left: 78%;
+    top: 37%;
+}
+
+@media (max-width: 1300px) {
+    aside {
+        width: 100%;
+    }
+    
+    main .main-top {
+        width: 100%;
+    }
+
+    footer .right-number {
+        left: 60%;
+    }
+}
+
+@media (max-width: 1199px) {
+    aside {
+        width: 100%;
+    }
+
+    main .main-top {
+        width: 100%;
+    }
+
+    main .section-main .main-right {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 150px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu.dashboard-active {
+        border-left: none;
+    }
+
+    aside .main-menu .menu-logout {
+        right: 5%;
+        top: 33%;
+    }
+
+    main .main-top {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 700px;
+    }
+
+    main .section-main .main-bottom {
+        margin-left: 0px;
+    }
+
+    main .section-main .main-right {
+        margin-right: 0px;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 180px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 1%;
+        top: 55%;
+    }
+
+    main .main-top {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 500px;
+    }
+
+    main .section-main .main-bottom {
+        width: 100%;
+    }
+
+    main .section-main .main-right {
+        width: 100%;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .text-zwallet {
+        margin-left: 20px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 200px;
+    }
+    
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu a {
+        margin-left: 10px;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 15px;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 30px;
+        bottom: 0px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main .main-top {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 300px;
+    }
+
+    main .section-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .section-main .main-bottom {
+        margin: 10px auto;
+    }
+
+    main .section-main .main-right {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .section-main .main-right .transaction {
+        top: 10%;
+        left: 10%;
+    }
+
+    main .section-main .main-right a {
+        top: 10%;
+        left: 80%;
+    }
+
+    main .section-main .main-right .samuel-tf,
+    main .section-main .main-right .netflix-sub,
+    main .section-main .main-right .christine-tf,
+    main .section-main .main-right .adobe-sub {
+        left: 72%;
+    }
+
+    footer .left-copyright {
+        left: 0;
+    }
+
+    footer .right-number {
+        left: 42%;
+    }
+
+    footer .right-contact {
+        left: 72%;
+    }
+}
+
+@media (max-width: 576px) {
+    aside {
+        height: 150px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 70px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -30px;
+        margin-left: 299px;
+    }
+
+    main .main-top .button-right {
+        margin-left: 260px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+@media (max-width: 540px) {
+    main .main-top .button-right {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 482px) {
+    main .main-top .button-right {
+        margin-left: 260px;
+    }
+}
+
+@media (max-width: 461px) {
+    aside .main-menu .menu-logout {
+        margin-left: 270px;
+    }
+
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    main .main-top .button-right button{
+        width: 140px;
+        margin-left: 35px;
+    }
+}
+
+/* Pixel 2/Pixel 2 XL/Iphone(6/7/8) Plus */
+@media (max-width: 415px) {
+    nav .text-zwallet {
+        margin-left: 130px;
+    }
+
+    nav .nav-right {
+        margin-right: 50px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 260px;
+    }
+
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: -5px;
+    }
+
+    main .main-top .button-right button{
+        width: 140px;
+        margin-left: 35px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 25%;
+    }
+
+    footer .right-number {
+        left: 32%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 33.40%;
+        top: 60%;
+    }
+}
+
+/* Galaxy Note 3/Galaxy S5/Iphone(6/7/8)/Iphone X */
+@media (max-width: 379px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: 15px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 215px;
+    }
+
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+
+    main .main-top .button-right button{
+        width: 140px;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 20%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
+
+@media (max-width: 332px) {
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    main .main-top .button-right button{
+        width: 130px;
+        margin-left: 10px;
+    }
+}
+
+/* iphone 4/5/SE */
+@media (max-width: 325px) {
+    nav .text-zwallet {
+        margin-left: 100px;
+    }
+
+    nav .nav-right {
+        margin-right: -10px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 25px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 200px;
+    }
+
+    main .main-top {
+        height: 300px;
+    }
+
+    main .main-top .button-right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    main .main-top .button-right button{
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 15%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}

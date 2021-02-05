@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    background: #E5E5E5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+nav {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #000;
+    height: 130px;
+}
+
+nav .text-zwallet {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 40px;
+
+    color: #6379F4;
+}
+
+nav .nav-right {
+    display: flex;
+}
+
+nav .nav-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+nav .nav-right .name-phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+nav .nav-right span {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+aside {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    height: 678px;
+    width: 270px;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+aside .main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+aside .main-menu .menu {
+    margin-bottom: 50px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    list-style-type: none;
+
+    color: #3A3D42;
+}
+
+aside .main-menu .profile-active {
+    border-left: 4px solid #6379F4;
+    height: 10%;
+}
+
+aside .main-menu .menu.profile-active span.profile {
+    color: #6379F4;
+    border-left: none;
+    margin-left: 40px;
+}
+
+aside .main-menu .menu span {
+    margin-left: 40px;
+}
+
+aside .main-menu .menu a {
+    color: #3A3D42;
+    margin-left: 20px;
+    padding-bottom: 70px;
+}
+
+aside .main-menu .menu a.profile {
+    color: #6379F4;
+}
+
+aside .main-menu .menu a:hover {
+    text-decoration: none;
+    color: #3A3D42;
+}
+
+aside .main-menu .menu a.profile:hover {
+    color: #6379F4;
+}
+
+aside .main-menu .menu-logout {
+    position: absolute;
+    bottom: 0px;
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-left: 10px;
+
+    height: 678px;
+    width: 850px;
+    position: relative;
+}
+
+main .change-pin-main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main .change-pin-main .change-pin {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 3%;
+    margin-left: 3%;
+
+    color: #3A3D42;
+}
+
+main .change-pin-main .text-change-pin {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-bottom: 15%;
+ 
+    color: #7A7886;
+}
+
+main .change-pin-main .content-change-pin {
+    display: flex;
+    flex-direction: column;
+}
+
+main .change-pin-main .content-change-pin form {
+    margin: 30px auto;
+}
+
+main .change-pin-main .content-change-pin .digit-group input {
+    display: flex;
+    flex-direction: column;
+
+    width: 45px;
+    height: 55px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #fff;
+
+
+    border: 1px solid rgba(169, 169, 169, 0.6);
+    box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+}
+
+main .change-pin-main .content-change-pin .digit-group input:hover {
+    border: 1px solid #6379F4;
+    outline: none;
+}
+
+main .change-pin-main .content-change-pin .digit-group input:focus {
+    border: 1px solid #6379F4;
+    outline: none;
+}
+
+main .change-pin-main .content-change-pin button[type="submit"] {
+
+    width: 433px;
+    height: 57px;
+    margin-top: 20%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+
+    background: #DADADA;
+    border-radius: 12px;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+
+    color: #88888F;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+
+    background: #6379F4;
+    height: 68px;
+    width: 100%;
+    color: #fff;
+
+    margin-top: 30px;
+}
+
+footer .left-copyright {
+    position: absolute;
+    left: 10%;
+    top: 37%;
+}
+
+footer .right-number {
+    position: absolute;
+    left: 65%;
+    top: 37%;
+}
+
+footer .right-contact {
+    position: absolute;
+    left: 78%;
+    top: 37%;
+}
+
+@media (max-width: 1300px) {
+    main {
+        width: 100%;
+    }
+
+    footer .right-number {
+        left: 60%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 150px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu.profile-active {
+        border-left: none;
+    }
+
+    aside .main-menu .menu-logout {
+        right: 5%;
+        top: 33%;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 180px;
+    }
+
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 1%;
+        top: 55%;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    main .change-pin-main .text-change-pin {
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+    footer .right-number {
+        left: 58%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .text-zwallet {
+        margin-left: 20px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        height: 200px;
+    }
+    
+    aside .main-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside .main-menu .menu a {
+        margin-left: 10px;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 15px;
+    }
+
+    aside .main-menu .menu-logout {
+        left: 2px;
+        bottom: 0px;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    main .change-pin-main .text-change-pin {
+        margin-left: 3%;
+    }
+
+    footer .left-copyright {
+        left: 0;
+    }
+
+    footer .right-number {
+        left: 42%;
+    }
+
+    footer .right-contact {
+        left: 72%;
+    }
+}
+
+@media (max-width: 576px) {
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 70px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 299px;
+    }
+
+    main .change-pin-main .text-change-pin {
+        top: 2%;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 30%;
+    }
+
+    footer .right-number {
+        left: 37%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 36.40%;
+        top: 60%;
+    }
+}
+
+@media (max-width: 430px) {
+    nav .text-zwallet {
+        margin-left: 130px;
+    }
+
+    nav .nav-right {
+        margin-right: 50px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 280px;
+    }
+
+    main {
+        height: 450px;
+    }
+
+    main .change-pin-main .text-change-pin {
+        top: 5%;
+    }
+
+    main .change-pin-main .content-change-pin .digit-group input {
+        margin-bottom: 5px;
+    }
+
+    main .change-pin-main .content-change-pin button[type="submit"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 377px) {
+    nav .text-zwallet {
+        margin-left: 130px;
+    }
+
+    nav .nav-right {
+        margin-right: 10px;
+    }
+
+    aside {
+        height: 100px;
+    }
+
+    aside .main-menu .menu {
+        margin-top: -15px;
+    }
+
+    aside .main-menu .menu a {
+        display: none;
+    }
+
+    aside .main-menu .menu span {
+        margin-left: 30px;
+    }
+
+    aside .main-menu .menu-logout {
+        margin-top: -5px;
+        margin-left: 250px;
+    }
+
+    main {
+        height: 450px;
+    }
+
+    main .change-pin-main .text-change-pin {
+        top: 5%;
+    }
+
+    main .change-pin-main .content-change-pin .digit-group input {
+        margin-bottom: 5px;
+    }
+
+    main .change-pin-main .content-change-pin button[type="submit"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .left-copyright {
+        top: 10%;
+        left: 20%;
+    }
+
+    footer .right-number {
+        left: 27%;
+        top: 35%;
+    }
+
+    footer .right-contact {
+        left: 26.40%;
+        top: 60%;
+    }
+}
