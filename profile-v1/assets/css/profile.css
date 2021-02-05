@@ -150,17 +150,16 @@ main .profile-main .section-profile {
     flex-direction: column;
 }
 
-main .profile-main .section-profile .user-profile img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+main .profile-main .section-profile img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
     margin-top: 5%;
-    margin-left: 45%;
 }
 
 main .profile-main .section-profile .text-edit span {
     position: absolute;
-    top: 24%;
+    top: 21.5%;
     left: 47%;
     color: #000;
 }
